@@ -7,7 +7,7 @@ type Props = {
   review: {
     name: string;
     review: string;
-    rating: string;
+    rating: number;
     profession: string;
     image: string;
   };
