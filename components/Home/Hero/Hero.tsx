@@ -81,7 +81,9 @@ const Hero = () => {
               data-aos-delay="400"
               className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-[#F78F42] hover:bg-white hover:text-black flex items-center space-x-2"
             >
-              <span>Download CV</span>
+              <a href="/images/My.CV.pdf" download="My_CV.pdf">
+                <span>Download CV</span>
+              </a>
               <FaDownload />
             </button>
           </div>
