@@ -8,7 +8,9 @@ const About = () => {
   return (
     <div className="pt-16 pb-16 bg-[#050709]">
       {/* SectionHeading */}
-      <SectionHeading>About Me</SectionHeading>
+      <SectionHeading>
+        About <span className="text-[#F78F42]">Me</span>
+      </SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* Text Content */}
         <div data-aos="fade-left" data-aos-anchor-placementt="top-center">
@@ -28,7 +30,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="mt-8">
+          <div>
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-7 h-7 bg-[#F78F42] flex flex-col items-center justify-center">
                 <FaCheck className="text-white" />
