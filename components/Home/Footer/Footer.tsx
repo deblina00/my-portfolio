@@ -57,11 +57,11 @@ const Footer = () => {
         <div>Projects.</div>
         <div>Reviews.</div>
         <div>Contact.</div> */}
-        <a href="#">Home.</a>
-        <a href="#">Services.</a>
-        <a href="#">Projects.</a>
-        <a href="#">Reviews.</a>
-        <a href="#">Contacts.</a>
+        <a href="#home">Home.</a>
+        <a href="#services">Services.</a>
+        <a href="#projects">Projects.</a>
+        <a href="#reviews">Reviews.</a>
+        <a href="#contacts">Contacts.</a>
       </div>
       <div className="text-white text-opacity-60 mt-6 text-center">
         © 2025 All Rights Reserved by React JS Developer

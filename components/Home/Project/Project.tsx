@@ -6,7 +6,7 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div id="projects" className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>
         Latest <span className="text-[#F78F42]">Projects</span>
       </SectionHeading>

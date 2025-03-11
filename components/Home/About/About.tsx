@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div id="about" className="pt-16 pb-16 bg-[#050709]">
       {/* SectionHeading */}
       <SectionHeading>
         About <span className="text-[#F78F42]">Me</span>

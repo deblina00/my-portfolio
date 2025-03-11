@@ -5,7 +5,7 @@ import Slider from "./Slider";
 
 const Reviews = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]">
+    <div id="reviews" className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>
         Client <span className="text-[#F78F42]">Testimonials</span>
       </SectionHeading>

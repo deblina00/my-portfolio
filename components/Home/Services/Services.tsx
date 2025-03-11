@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#0f0f10]">
+    <div id="services" className="pt-16 pb-16 bg-[#0f0f10]">
       {/* SectionHeading */}
       <SectionHeading>
         My <span className="text-[#F78F42]">Services</span>
