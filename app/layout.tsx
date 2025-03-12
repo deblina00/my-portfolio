@@ -4,7 +4,7 @@ import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollTop from "@/components/Helper/ScrollTop";
-// import AnimatedCursor from "@/components/AnimatedCursor/AnimatedCursor";
+import AnimatedCursor from "@/components/AnimatedCursor";
 
 const font = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -23,18 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="custom-scrollbar">
-      <body className={font.className}>
-        {/* <div className="hidden md:block pointer-events">
-          <AnimatedCursor
-            innerSize={8}
-            outerSize={35}
-            innerScale={2}
-            outerScale={2}
-            outerAlpha={0}
-            innerStyle={{ backgroundColor: "white" }}
-            outerStyle={{ border: "3px solid white" }}
-          />
-        </div> */}
+      <body className={`{font.className} cursor-none`}>
+        <AnimatedCursor /> 
         <ResponsiveNav />
         {children}
         <Footer />

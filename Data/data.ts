@@ -74,34 +74,34 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/images/p1.png",
+    image: "/images/ecommerce.webp",
     url: "",
   },
   {
     id: 2,
-    image: "/images/p2.png",
+    image: "/images/spotify.webp",
     url: "",
   },
   {
     id: 3,
-    image: "/images/p3.png",
+    image: "/images/travel.webp",
     url: "",
   },
-  // {
-  //   id: 4,
-  //   image: "/images/p4.png",
-  //   url: "",
-  // },
-  // {
-  //   id: 5,
-  //   image: "/images/p5.png",
-  //   url: "",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/images/p6.png",
-  //   url: "",
-  // },
+  {
+    id: 4,
+    image: "/images/portfolio.webp",
+    url: "",
+  },
+  {
+    id: 5,
+    image: "/images/medical.webp",
+    url: "",
+  },
+  {
+    id: 6,
+    image: "/images/restaurant.webp",
+    url: "",
+  },
   // {
   //   id: 7,
   //   image: "/images/p7.png",
