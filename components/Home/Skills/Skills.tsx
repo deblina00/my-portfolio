@@ -5,7 +5,7 @@ import SkillCard from "./SkillCard";
 
 const Skills = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#0f0f10]">
+    <div id="skills" className="pt-16 pb-16 bg-[#0f0f10]">
       <SectionHeading>
         My <span className="text-[#F78F42]">Skills</span>
       </SectionHeading>

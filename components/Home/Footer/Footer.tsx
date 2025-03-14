@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="flex items-center flex-wrap justify-center space-x-5 text-white">
         <a
-          href="#"
+          href="https://github.com/deblina00"
           className="rounded-[3rem] p-2 border-[2px] border-[#F78F42]"
         >
           <FaGithub />
@@ -58,9 +58,8 @@ const Footer = () => {
         <div>Reviews.</div>
         <div>Contact.</div> */}
         <a href="#home">Home.</a>
-        <a href="#services">Services.</a>
         <a href="#projects">Projects.</a>
-        <a href="#reviews">Reviews.</a>
+        <a href="#skills">Skills.</a>
         <a href="#contacts">Contacts.</a>
       </div>
       <div className="text-white text-opacity-60 mt-6 text-center">

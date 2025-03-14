@@ -3,10 +3,8 @@
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
-import Services from "./Services/Services";
 import Project from "./Project/Project";
 import Skills from "./Skills/Skills";
-import Reviews from "./Reviews/Reviews";
 import Contact from "./Contact/Contact";
 
 import AOS from "aos";
@@ -29,10 +27,8 @@ const Home = () => {
     <div id="home" className="overflow-hidden">
       <Hero />
       <About />
-      <Services />
       <Project />
       <Skills />
-      <Reviews />
       <Contact />
     </div>
   );

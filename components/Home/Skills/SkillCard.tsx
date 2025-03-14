@@ -23,8 +23,18 @@ const SkillCard = ({ skill }: Props) => {
         className="object-cover mx-auto"
       />
       <h1 className="text-[18px] mt-4 text-white font-[600]">{title}</h1>
-      <div className="bg-black mt-4 rounded-lg p-2 text-white opacity-40">
+      {/* <div className="bg-black mt-4 rounded-lg p-2 text-white opacity-40">
         {percent}
+      </div> */}
+
+
+       {/* Percentage Bar */}
+      <div className="bg-black mt-4 rounded-lg p-2 text-white relative overflow-hidden">
+        <div
+          className="absolute top-0 left-0 h-full bg-[#44e43e] "
+          style={{ width: percent }}
+        />
+        <span className="relative">{percent}</span>
       </div>
     </div>
   );

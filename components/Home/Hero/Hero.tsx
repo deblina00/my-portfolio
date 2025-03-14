@@ -45,7 +45,7 @@ const Hero = () => {
               className="flex mt-5 flex-wrap justify-start space-x-3 text-white"
             >
               <a
-                href="#"
+                href="https://github.com/deblina00"
                 className="rounded-[3rem] p-2 border-[2px] border-[#F78F42]"
               >
                 <FaGithub />
